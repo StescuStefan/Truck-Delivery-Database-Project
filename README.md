@@ -1,30 +1,27 @@
 # Truck Delivery Business Database Project
 
-A comprehensive PostgreSQL database system was developed to track and manage truck delivery operations as part of a university Databases course.
+A PostgreSQL database system was developed to track truck delivery operations as part of a university Databases course.
 
 ## Project Overview
-- Designed and implemented a relational database for a truck delivery business
-- Created 23 interconnected tables covering all aspects of delivery operations
-- Implemented complex data relationships, constraints, and validation rules
-- Developed optimized queries for business intelligence and reporting
+- Designed and implemented a relational database with 23 tables for a truck delivery business
+- Created table structure with primary and foreign key relationships
+- Implemented basic data validation rules and constraints
+- Developed queries for basic business reporting
 
 ## Database Features
-- Vehicle management (trucks, trailers, maintenance records)
-- Financial tracking (invoices, payments, line items)
-- Customer and supplier management
-- Route and delivery scheduling
-- Inventory and product tracking
-- Driver and transport management
+- Vehicle and equipment tracking (trucks, trailers)
+- Basic financial records (invoices, payments)
+- Customer management
+- Route and delivery tracking
+- Product inventory
 
 ## Technical Implementation
-- Designed entity-relationship diagrams and normalized database schema
-- Created tables with appropriate primary and foreign key constraints
-- Implemented triggers for automated data maintenance
-- Developed complex queries including joins, aggregations, and subqueries
-- Applied data validation rules to ensure data integrity
+- Created tables with appropriate constraints
+- Implemented a trigger for automated date calculation
+- Developed basic queries, including joins and aggregations
+- Populated the database with sample data
 
 ## Technologies Used
 - PostgreSQL
 - SQL DDL (Data Definition Language)
 - SQL DML (Data Manipulation Language)
-- Stored procedures and triggers
